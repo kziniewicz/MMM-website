@@ -1,0 +1,8 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 30px;
+    border-right: 1px solid rgb(152, 186, 71);
+    
+}

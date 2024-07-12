@@ -1,0 +1,56 @@
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding-left: 60px;
+}
+
+.user-grid {
+    display: grid;
+    grid-template-columns: 20% 40% 30%; 
+    margin-top: 50px;
+    min-height: 70vh;
+  }
+  
+  .userImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #button{
+    width: 200px;
+    height: 30px;
+    color: #fff;
+    background-color:  rgb(152, 186, 71);
+    border-radius: 0;
+    font-size: 10px;
+    transition: box-shadow 0.3s ease; 
+
+  }
+
+  button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  }
+  .userImage img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .user-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 70px;
+    text-align: left; 
+}
+
+.user-content h3,
+.user-content p {
+    font-size: 18px;
+    margin: 5px 0; 
+}
+

@@ -1,0 +1,160 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.title{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 40px;  
+}
+
+.imgAndIngredients{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;  
+}
+
+.recipeImage{
+    margin: 0 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+img{
+    width: 700px;
+    height: fit-content;
+    border-radius: 10px;
+
+}
+
+.ingredients{
+    
+    display: flex;
+    align-items: center; 
+    flex-direction: column; 
+    margin: 20px;
+}
+
+.ingredients h3{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.otherDetails{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+.otherDetails h3{
+    margin: 20px;
+}
+
+.otherDetails p{
+    margin: 0 20px;
+}
+
+.recipeReview{
+    margin: 40px 20px;
+}
+.recipeReview::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #598039;
+    margin-bottom: 20px;
+  }
+
+.recipeReview h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+.recipeReview ul{
+    list-style-type: none; 
+
+
+}
+
+.addReview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    background-color: #b1dd8c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.review-card{
+    margin: 20px;
+    padding: 10px 20px;
+    border: 1px solid #b1dd8c;
+    border-radius: 10px;
+
+}
+
+.userName p{
+    font-weight: 600;
+}
+
+.addReviewDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.addReviewDetails select{
+    width: 700px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.addReviewDetails textarea{
+    width: 700px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.del-edit-btn{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.del-edit-btn button{
+    margin: 0 10px;
+    
+}

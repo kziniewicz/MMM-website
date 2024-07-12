@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#h1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 40px
+}
+
+.product-main-info{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.productContainer {
+    display: grid;
+    grid-template-columns: 30% 70%; 
+    margin: 20px;
+    min-height: 70vh;
+  }
+  
+.productImage{
+    margin: 0 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.productImage img{
+    width: 400px;
+    height: fit-content;
+}
+
+.product-other-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 40px 0;
+
+}
+
+.category, .country, .brands{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.product-details-info{
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.product-details-info ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+.nutriment-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 40px;
+  }
+  
+  .nutriment-info p {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 8px;
+    width: 900px;
+  }
+  
+  
+
+
+li{
+    list-style: none;
+}
+
+h3{
+    margin: 20px;
+}

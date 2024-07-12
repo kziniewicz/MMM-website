@@ -1,0 +1,61 @@
+.addRecipe-container{
+    margin: 50px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 10px 30px;
+
+}
+.recipe-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+  }
+
+label {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .grid-left input,
+  .grid-left select
+   {
+    width: 500px;
+    height: 30px;
+    display: block;
+    margin: 0 auto; 
+    border: 2px solid rgb(140, 161, 91);
+  }
+  
+  .grid-right select,
+  .grid-right input,
+  .grid-right textarea{
+    width: 500px;
+    height: 30px;
+    display: block;
+    margin: 0 auto; 
+    border: 2px solid rgb(140, 161, 91);
+
+  }
+  .grid-right textarea {
+    height: 100px;
+  }
+
+  .grid-right .ingredient-details select {
+    width: 500px; 
+    height: 30px; 
+    margin-top: 5px;
+  }
+  
+  .submit-button{
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+  }
+
+  .submit-button button{
+    width: 300px;
+    border-radius: 0;
+    background-color: rgb(198, 228, 128);
+  }
+  

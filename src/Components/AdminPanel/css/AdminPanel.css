@@ -1,0 +1,28 @@
+.admin-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.option-container {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(152, 179, 89) ;
+    margin: 15px;
+    padding-bottom: 10px;
+    transition: background-color 0.3s ease; 
+
+  }
+
+  .option-container:hover{
+background-color:rgb(152, 179, 89) ;
+
+  }
+  .option-container h3,
+.option-container p {
+  text-align: center;
+}

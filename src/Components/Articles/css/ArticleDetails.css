@@ -1,0 +1,19 @@
+
+
+.articleTitle h1{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.articleContent{
+    margin: 20px 50px;
+}

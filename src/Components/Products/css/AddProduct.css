@@ -1,0 +1,56 @@
+.addProduct-container {
+    margin: 50px 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+
+.product-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+
+
+.checkbox-container {
+    display: grid;
+    grid-template-columns: 45% 30% ; 
+    gap: 5px; 
+    margin: 20px 0;
+}
+
+.checkbox-container label {
+    justify-content: center;
+}
+
+.checkbox-container input {
+    border: 1px solid black;
+}
+
+
+.grid-left input,
+.grid-left select {
+    height: 30px;
+}
+
+.grid-right select {
+    height: 150px;
+}
+
+.grid-right input {
+    margin-bottom: 5px;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.submit-btn button{
+    width: 300px;
+    border-radius: 0;
+    background-color: rgb(198, 228, 128);
+    font-size: 15px;
+}

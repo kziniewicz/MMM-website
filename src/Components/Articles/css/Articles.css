@@ -1,0 +1,57 @@
+.articles-container {
+    margin: 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .article-card {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 900px;
+    list-style: none;
+    margin-bottom: 30px;
+  }
+
+  .articleImage{
+    width: 900px;
+    height: 350px;
+    background: url('../../../images/article.jpg');
+    position: relative; 
+    border-radius:10px 10px  0 0  ; 
+  }
+ 
+  
+  .articleDetails {
+    padding: 0 10px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border: 2px solid #c0b3a5;
+    border-radius: 0 0 10px 10px ;
+
+
+  }
+
+  .article-content {
+    max-height: 6em; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+  
+
+  .articleDetails h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
+  }
+  
+
+  
